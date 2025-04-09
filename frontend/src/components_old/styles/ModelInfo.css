@@ -1,0 +1,58 @@
+.model-info-panel {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.model-info-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.model-info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.model-info-item h3 {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.model-info-item p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.variables-section {
+    margin-top: 0.75rem;
+}
+
+.variables-section h3 {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.variables-section p {
+    font-size: 0.875rem;
+    margin-top: 0;
+}
+
+.close-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #e5e7eb;
+    border-radius: 0.25rem;
+    border: none;
+    color: #1f2937;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.close-button:hover {
+    background-color: #d1d5db;
+}
